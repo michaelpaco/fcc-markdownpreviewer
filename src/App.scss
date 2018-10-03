@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+$darkAccent: rgb(8, 12, 12);
+$lightAccent: #2CDA9D;
+$backgroundBase: rgb(74, 92, 255);
+
+body {
+  background: lighten($backgroundBase, 12%);
+  margin: 10px 0;
+  
+}
+
+
+#preview {
+  blockquote {
+    border-left: 3px solid #224B4B;
+    color: #224B4B;
+    padding-left: 5px;
+    margin-left: 25px;
+  }
+
+  code {
+    padding: 1px 4px 2px 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  pre {
+    background: white;
+    padding: 5px 0 5px 5px;
+    width: 70%
+  }
+
+  h1 {
+    border-bottom: 2px solid $darkAccent;
+    width:80%
+  }
+
+  h2 {
+    border-bottom: 1px solid $darkAccent;
+    width:80%
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  td,
+  th {
+    border: 2px solid $darkAccent;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
